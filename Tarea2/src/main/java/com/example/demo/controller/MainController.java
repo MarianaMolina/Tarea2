@@ -26,6 +26,7 @@ public class MainController {
 	public @ResponseBody String dia(HttpServletRequest dato1, HttpServletRequest dato2, HttpServletRequest dato3) {
 
 		Integer annio = Integer.parseInt(dato1.getParameter("annio"));
+		/* mes String */
 		String mes =dato2.getParameter("mes");
 		Month m = Month.valueOf(mes);
 		Integer fecha = Integer.parseInt(dato3.getParameter("fecha"));
