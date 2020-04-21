@@ -2,12 +2,9 @@ package com.example.demo.controller;
 
 import javax.servlet.http.HttpServletRequest;
 
-import java.text.DateFormatSymbols;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.Month;
-import java.util.Calendar;
-import java.util.GregorianCalendar;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
